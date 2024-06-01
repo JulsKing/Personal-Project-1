@@ -6,7 +6,7 @@
       <class name="TestCases.AddNewEmployee">
         <methods>
           <include name="teardown"/>
-          <include name="PersonalInfo" invocation-numbers="0"/>
+          <include name="PersonalInfo"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- TestCases.AddNewEmployee -->
