@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.AddNewEmployee">
+      <class name="TestCases.Dashboard">
         <methods>
           <include name="teardown"/>
-          <include name="PersonalInfo"/>
+          <include name="NewEmployeeCount"/>
+          <include name="ActiveEmployeeCount"/>
+          <include name="SearchingwithResultActiveEmployee"/>
           <include name="setUp"/>
+          <include name="SearchingwithnoResultProbEmployee"/>
+          <include name="HR_Logins"/>
+          <include name="ProbEmployeeCount"/>
+          <include name="SearchingwithnoResultResignedEmployee"/>
         </methods>
-      </class> <!-- TestCases.AddNewEmployee -->
+      </class> <!-- TestCases.Dashboard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

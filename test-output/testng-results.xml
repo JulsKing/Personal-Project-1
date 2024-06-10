@@ -1,264 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-02T06:42:01 CST" name="Default suite" finished-at="2024-06-02T06:42:10 CST" duration-ms="9474">
+  <suite started-at="2024-06-10T07:19:14 CST" name="Default suite" finished-at="2024-06-10T07:20:41 CST" duration-ms="86877">
     <groups>
     </groups>
-    <test started-at="2024-06-02T06:42:01 CST" name="Default test" finished-at="2024-06-02T06:42:10 CST" duration-ms="9474">
-      <class name="TestCases.AddNewEmployee">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.AddNewEmployee@413d1baf]" started-at="2024-06-02T06:42:01 CST" name="setUp" finished-at="2024-06-02T06:42:09 CST" duration-ms="8486" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=125.0.6422.113)
-Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
-System info: host: 'LT-6374', ip: '192.168.1.18', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68ad11e32865b2bb7a7904cde036275d, get {url=https://outuatmobwb1.smretailinc.com/HRSuite/Login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 124.0.6367.60 (8771130bd84f..., userDataDir: C:\Users\jvk5400\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68ad11e32865b2bb7a7904cde036275d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=125.0.6422.113)
-Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
-System info: host: 'LT-6374', ip: '192.168.1.18', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68ad11e32865b2bb7a7904cde036275d, get {url=https://outuatmobwb1.smretailinc.com/HRSuite/Login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 124.0.6367.60 (8771130bd84f..., userDataDir: C:\Users\jvk5400\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68ad11e32865b2bb7a7904cde036275d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at base.baseMain.setUp(baseMain.java:70)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+    <test started-at="2024-06-10T07:19:14 CST" name="Default test" finished-at="2024-06-10T07:20:41 CST" duration-ms="86877">
+      <class name="TestCases.ManageEmployees">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.ManageEmployees@5e2c3d18]" started-at="2024-06-10T07:19:14 CST" name="setUp" finished-at="2024-06-10T07:19:53 CST" duration-ms="38514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="PersonalInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.AddNewEmployee@413d1baf]" started-at="2024-06-02T06:42:10 CST" name="PersonalInfo" data-provider="inputSSSno" finished-at="2024-06-02T06:42:10 CST" duration-ms="0" status="SKIP">
+        <test-method signature="ManageEmployeePage()[pri:1, instance:TestCases.ManageEmployees@5e2c3d18]" started-at="2024-06-10T07:19:53 CST" name="ManageEmployeePage" finished-at="2024-06-10T07:20:09 CST" duration-ms="15855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageEmployeePage -->
+        <test-method signature="InputSSS_message(java.lang.String)[pri:2, instance:TestCases.ManageEmployees@5e2c3d18]" started-at="2024-06-10T07:20:12 CST" name="InputSSS_message" data-provider="inputSSSno" finished-at="2024-06-10T07:20:22 CST" duration-ms="9514" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Russel]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Maja]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[KOU]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2/10/2003]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Makati]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Filipino]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Philippines]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Male]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Type B-]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Roman Catholic]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[56]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[test1@gmail.com]]>
-              </value>
-            </param>
-            <param index="17">
-              <value>
-                <![CDATA[Single]]>
-              </value>
-            </param>
-            <param index="18">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="19">
-              <value>
-                <![CDATA[111111115]]>
-              </value>
-            </param>
-            <param index="20">
-              <value>
-                <![CDATA[120000112912]]>
-              </value>
-            </param>
-            <param index="21">
-              <value>
-                <![CDATA[111111111134]]>
-              </value>
-            </param>
-            <param index="22">
-              <value>
-                <![CDATA[Makati]]>
+                <![CDATA[123]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=125.0.6422.113)
-Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
-System info: host: 'LT-6374', ip: '192.168.1.18', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68ad11e32865b2bb7a7904cde036275d, get {url=https://outuatmobwb1.smretailinc.com/HRSuite/Login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 124.0.6367.60 (8771130bd84f..., userDataDir: C:\Users\jvk5400\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68ad11e32865b2bb7a7904cde036275d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=125.0.6422.113)
-Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
-System info: host: 'LT-6374', ip: '192.168.1.18', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68ad11e32865b2bb7a7904cde036275d, get {url=https://outuatmobwb1.smretailinc.com/HRSuite/Login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 124.0.6367.60 (8771130bd84f..., userDataDir: C:\Users\jvk5400\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51244/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68ad11e32865b2bb7a7904cde036275d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
-at base.baseMain.setUp(baseMain.java:70)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PersonalInfo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.AddNewEmployee@413d1baf]" started-at="2024-06-02T06:42:10 CST" name="teardown" finished-at="2024-06-02T06:42:10 CST" duration-ms="0" status="SKIP">
+        </test-method> <!-- InputSSS_message -->
+        <test-method signature="InputSSS_message(java.lang.String)[pri:2, instance:TestCases.ManageEmployees@5e2c3d18]" started-at="2024-06-10T07:20:22 CST" name="InputSSS_message" data-provider="inputSSSno" finished-at="2024-06-10T07:20:31 CST" duration-ms="9542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3369877722]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputSSS_message -->
+        <test-method signature="InputSSS_message(java.lang.String)[pri:2, instance:TestCases.ManageEmployees@5e2c3d18]" started-at="2024-06-10T07:20:31 CST" name="InputSSS_message" data-provider="inputSSSno" finished-at="2024-06-10T07:20:41 CST" duration-ms="9427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3402214608]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputSSS_message -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.ManageEmployees@5e2c3d18]" started-at="2024-06-10T07:20:41 CST" name="teardown" finished-at="2024-06-10T07:20:41 CST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCases.AddNewEmployee -->
+      </class> <!-- TestCases.ManageEmployees -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

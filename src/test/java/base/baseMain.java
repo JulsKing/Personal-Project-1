@@ -25,6 +25,9 @@ public class baseMain {
 	public static Properties loc = new Properties();
 	public static FileReader fr;
 	public static FileReader fr2;
+	public static FileReader fr3;
+	public static FileReader fr4;
+	
    //validation message1
 	public static String expectedMessage1 = "The Data you entered contains a letter or special character";
 	public static String expectedMessage3 = "Employee already exists in Workforce.";
@@ -50,10 +53,13 @@ public class baseMain {
 		if(driver==null) {
 			 fr = new FileReader("C:\\Users\\jvk5400\\eclipse-workspace\\New Work\\HR_WorkForce\\src\\test\\resources\\ConfigFiles\\config.properties");
 			 fr2 = new FileReader("C:\\Users\\jvk5400\\eclipse-workspace\\New Work\\HR_WorkForce\\src\\test\\resources\\ConfigFiles\\locators.properties");
-			
-			
+			 fr3 = new FileReader("C:\\Users\\jvk5400\\eclipse-workspace\\New Work\\HR_WorkForce\\src\\test\\resources\\ConfigFiles\\AddFamilyMember.properties");
+			 fr4 = new FileReader("C:\\Users\\jvk5400\\eclipse-workspace\\New Work\\HR_WorkForce\\src\\test\\resources\\ConfigFiles\\Employment.properties");
+
 			prop.load(fr);
 			loc.load(fr2);
+			loc.load(fr3);
+			loc.load(fr4);
 		
 		}
 		
