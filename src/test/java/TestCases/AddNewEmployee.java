@@ -54,7 +54,7 @@ public class AddNewEmployee extends baseMain {
 		// Input SSS number
 		WebElement inpustSSS = waitingElement.waitElement(By.xpath(loc.getProperty("InputSSS_textfield")));
 		inpustSSS.click();
-		inpustSSS.sendKeys("3442528846");
+		inpustSSS.sendKeys("");
 
 		// click check
 		waitingElement.waitElement(By.xpath(loc.getProperty("Check_button"))).click();
