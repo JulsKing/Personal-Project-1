@@ -11,8 +11,8 @@ public class InputSSSValidationMessages {
 
 	 //validation message2
 	 String inputSSSM0 = "123";
-	 String inputSSSM3 = "3369877722";
-	 String inputSSSM5 = "3402214608";
+	 String inputSSSM3 = "";
+	 String inputSSSM5 = "";
 	 String PageTitle = "Manage Employee";
 	
 	
