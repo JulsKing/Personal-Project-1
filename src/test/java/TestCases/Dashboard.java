@@ -22,9 +22,9 @@ public class Dashboard extends baseMain {
 	public void HR_Logins() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 		Thread.sleep(10000);
-		driver.findElement(By.id("Input_UsernameVal")).sendKeys("3445030182");
+		driver.findElement(By.id("Input_UsernameVal")).sendKeys("");
 		// Thread.sleep(10000);
-		driver.findElement(By.id("Input_PasswordVal")).sendKeys("P@ssw0rd1993");
+		driver.findElement(By.id("Input_PasswordVal")).sendKeys("");
 		driver.findElement(By.xpath("/html/body/div/div/div/div/div/div/div/div/form/div[2]/div/div/button")).click();
 		Thread.sleep(2000);
 
